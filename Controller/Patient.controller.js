@@ -1,5 +1,5 @@
 // controllers/patientController.js
-const generatePatientId = require("../utils/PatientId")
+const generatePatientId = require("./patientId")
 const Patient = require("../model/Patient");
 const Appointment = require("../model/Appointment");
 
